@@ -127,7 +127,6 @@ nav {
 
 .nav__link--anchor {
     margin: 0 12px;
-    color: black;
     text-decoration: none;
     font-weight: 700;
 }
@@ -496,6 +495,12 @@ footer {
 
     .about-me__info--para {
         font-size: 18px;
+    }
+
+    .about--me__img {
+        width: 100%;
+        max-width: 512px;
+        margin: 0 auto;
     }
 
     .language {
